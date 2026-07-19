@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main()
+{
+	printf("hi welcome to c world");
+	  return 0;  
+}
