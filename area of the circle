@@ -1,0 +1,9 @@
+int main(int argc, char *argv[])
+{
+	float pi=3.14,r,area;
+	printf("enter the r value");
+	scanf("%d",&r);
+	area=pi*r*r;
+	printf("the area of the circle = %f",area);
+	return 0;
+}
