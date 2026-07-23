@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+   float cb,bill;
+   printf("enter the current bill:");
+   scanf("%f",&cb);
+   if(cb>=150)
+   {
+       bill=cb*3.50;
+       printf("the total current bill %f",bill);
+   }
+   else
+   {
+       bill=cb*1.50;
+       printf("the total current bill %f",bill);
+   }
+   return 0;
+}
