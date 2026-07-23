@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+    char c1;
+    printf("enter any one alphabet");
+    scanf("%c",&c1);
+    if((c1=='a')||(c1=='A')||(c1=='e')||(c1=='E')||(c1=='i')||(c1=='I')||(c1=='o')||(c1=='O')||(c1=='u')||(c1=='U'))
+    {
+        printf("the alphabet is vowel");    
+    }
+    else
+    {
+        printf("the alphabet is consonent");    
+    }
+    return 0;
+}
