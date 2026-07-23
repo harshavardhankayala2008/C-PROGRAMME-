@@ -1,0 +1,17 @@
+
+
+#include <stdio.h>
+
+int main()
+{
+    int th,hun,ten,ones,numbers;
+    printf("enter any one numbers");
+    scanf("%d",&numbers);
+    ones=(numbers%10);
+    ten=((numbers/10)%10);
+    hun=((numbers/100)%10);
+    th=(numbers/1000);
+    printf("the reverse of the number is:%d%d%d%d",ones,ten,hun,th);
+
+    return 0;
+}
