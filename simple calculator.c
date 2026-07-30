@@ -12,7 +12,7 @@ int main()
     switch(op)
     {
         case '+':
-        printf("\n%d+%d=%d",a,ba+b);
+        printf("\n%d+%d=%d",a,b,a+b);
         break;
         case '-':
         printf("\n%d-%d=%d",a,b,a-b);
