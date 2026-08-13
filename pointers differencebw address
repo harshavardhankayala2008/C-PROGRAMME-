@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    int x,y;
+    int *p1,*p2;
+    long difference;
+    printf("enter any two numbers:");
+    scanf("%d%d",&x,&y);
+    p1=&x;
+    p2=&y;
+    difference=(char*)p1-(char*)p2;
+    printf("\nthe address of p1 is %d\n the address of p2 is %d\n the difference between the both address is %ld ",p1,p2,difference);
+    return 0;
+}
